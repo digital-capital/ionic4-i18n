@@ -13,13 +13,13 @@ export class Tab1Page {
   public description: string;
   public name: string;
   public language: string;
-  
+
   constructor(private globalization: Globalization, private _translate: TranslateService) {
 
   }
 
   ionViewDidEnter(): void {
-    console.log('challa?')
+    console.log('ionViewDidEnter ')
     this.getDeviceLanguage()
   }
 
